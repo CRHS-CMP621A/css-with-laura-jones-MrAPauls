@@ -1,0 +1,31 @@
+h1 {
+  color: blue;
+}
+
+.related-post {
+  list-style: none;
+}
+
+article ul li:nth-child(odd) {
+  font-weight: bold;
+  color: red;
+}
+
+/* Pseudoclass for Links*/
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+}
